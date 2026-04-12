@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1707209857877-d8352cc61baa?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#child1{
+    flex-shrink: 0;
+    border-radius: 25px;
+    margin: 10px 5px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(220, 20, 60, 0.305);
+    border: 4px solid white;
+}
+
+#child2{
+    flex-shrink: 0;
+    height: 200px;
+    margin: 10px 5px;
+    width: 200px;
+    background-color: rgba(137, 43, 226, 0.305);
+    border: 4px solid white;
+    border-radius: 25px;
+}
+
+#child3{
+    flex-shrink: 0;
+    height: 200px;
+    margin: 10px 5px;
+    width: 200px;
+    background-color: rgba(210, 105, 30, 0.305);
+    border: 4px solid white;
+    border-radius: 25px;
+}

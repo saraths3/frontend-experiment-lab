@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: blue;
+    height: 15%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: aqua;
+    height: 15%;
+    
+}
+
+.s1{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(43, 165, 226);
+}
+
+.s2{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+
+
