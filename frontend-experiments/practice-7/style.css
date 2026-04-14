@@ -7,3 +7,35 @@ html, body{
     height: 100%;
     width: 100%;
 }
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+}
+.child1{
+    background-color: rgb(127, 255, 165);
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+}
+.child2{
+    background-color: rgb(255, 127, 127);
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+}
+.child3{
+    background-color: rgb(255, 249, 127);
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+}
+.child4{
+    background-color: rgb(127, 129, 255);
+    width: 100px;
+    height: 100px;
+    border: 2px white;
+}
