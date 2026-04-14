@@ -41,6 +41,9 @@ html, body{
     display: none;
 }
 
+.dot{
+    color: rgb(217, 135, 255);
+}
 
 @media (max-width: 600px) {
     .nav{
@@ -52,5 +55,14 @@ html, body{
     }
     .nav2 h5{
         display: block;
+        transition: .3s;
     }
+    .nav2 h5:hover{
+        color: rgb(217, 135, 255);
+    }
+}
+
+.ri-remix-fill:hover{
+    transition: .3s;
+    color: rgb(217, 135, 255);
 }
